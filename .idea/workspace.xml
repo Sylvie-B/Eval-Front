@@ -19,11 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="946c3fa0-95ec-435a-ad19-5adceb7ea081" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sylvie-eval-front.css" beforeDir="false" afterPath="$PROJECT_DIR$/sylvie-eval-front.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sylvie-evalfront.html" beforeDir="false" afterPath="$PROJECT_DIR$/sylvie-evalfront.html" afterDir="false" />
-    </list>
+    <list default="true" id="946c3fa0-95ec-435a-ad19-5adceb7ea081" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,7 +74,7 @@
       <workItem from="1604911155376" duration="7459000" />
       <workItem from="1604919180108" duration="23000" />
       <workItem from="1604919238893" duration="4000" />
-      <workItem from="1604919374121" duration="13721000" />
+      <workItem from="1604919374121" duration="14102000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1604840006775</created>
@@ -115,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604935313415</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="colonne 1,2,3&#10;ok">
+      <created>1604936324200</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1604936324200</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,14 +141,15 @@
     <MESSAGE value="version fablab" />
     <MESSAGE value="photo de fond&#10;colonne 1" />
     <MESSAGE value="colonne 2&#10;colonne 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="colonne 2&#10;colonne 3" />
+    <MESSAGE value="colonne 1,2,3&#10;ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="colonne 1,2,3&#10;ok" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1604935318832">
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1604936325798">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1280.57.1280.984@0.0.1536.824" timestamp="1604840009795" />
-    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1604935318832" />
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1604936325798" />
     <state x="372" y="186" width="1234" height="580" key="dock-window-1" timestamp="1604764374792">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
