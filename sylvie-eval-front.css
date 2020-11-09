@@ -1,15 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+
 body{
     margin: 10px;
     padding: 10px;
+    font-family: 'Goldman', cursive;
+    color: white;
 }
 
-.cadre{
+.cadre{ /*  contient tout   */
     position: relative;
     width: 1110px;
     height: 666px;
     padding : 3px;
     background-color: gray;
 }
+
 /*  photo et boutons    */
 .fablab{
     position: relative;
@@ -23,15 +28,14 @@ body{
 #tripleP{
     position: absolute;
     right: 30px;
+    width: 10%;
     top: 10px;
-    color: white;
     font-size: 200%;
 }
 
 .doubleF{
     width: 444px;
     font-size: 50px;
-    color: white;
     position: relative;
     top: 308px;
 }
@@ -41,14 +45,66 @@ body{
     right: 0;
 }
 
-#leLabo{
-    width: auto;
+/*      8 cases    */
+
+/*  colonne  */
+.colDouble{
+    width: 444px;
     height: 666px;
 }
 
-
-.carre{
-    width: 666px;
-    height: 666px;
-    border: solid 2px red;
+.titre{
+    background-color: lightseagreen;
+    height: 182px;
+    padding-left: 20px;
+    padding-top: 40px;
 }
+
+p{
+    margin: 5px;
+    font-size: 15px;
+}
+
+h1{
+    margin: 0;
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+
+.navigation{
+    padding-top: 20px;
+}
+
+.leftMarg10{
+    margin-left: 10px;
+}
+
+.boutonResume{
+    width: 50px;
+    border: solid 2px white;
+    padding: 5px;
+    display: inline;
+}
+
+.boutonContact{
+    width: 50px;
+    border: solid 2px white;
+    padding: 5px;
+    display: inline;
+    margin-left: 10px;
+}
+
+/* cases ateliers   -   reseau  -   contact */
+.caseAteliers{
+    width: 222px;
+    height: 222px;
+    background-color: blue;
+    text-align: center;
+}
+
+.ateliers{
+    padding-top: 70px;
+    padding-bottom: 5px;
+    font-size: 40px;
+}
+
