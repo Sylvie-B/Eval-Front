@@ -5,6 +5,7 @@ body{
     padding: 10px;
     font-family: 'Goldman', cursive;
     color: white;
+    background-color: dimgrey;
 }
 
 .cadre{ /*  contient tout   */
@@ -45,10 +46,16 @@ body{
     right: 0;
 }
 
-/*      8 cases    */
+/*    carre   -   8 cases    */
+.carre{
+    width: 666px;
+    position: relative;
+}
 
-/*  colonne  */
+/*  colonne double  */
 .colDouble{
+    position: relative;
+    display: inline-block;
     width: 444px;
     height: 666px;
 }
@@ -102,9 +109,123 @@ h1{
     text-align: center;
 }
 
-.ateliers{
+#logoAteliers{
+    font-size: 40px;
     padding-top: 70px;
     padding-bottom: 5px;
+}
+
+#txtAtelier{
+    display: block;
+}
+
+.caseReseau{
+    width: 222px;
+    height: 222px;
+    background-color: orangered;
+    text-align: center;
+}
+
+#logoReseau{
     font-size: 40px;
+    padding-top: 70px;
+    padding-bottom: 5px;
+}
+
+#txtReseau{
+    display: block;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+
+.caseRepair{
+    width: 222px;
+    height: 222px;
+    background-color: orangered;
+    position: absolute;
+    right: 0;
+    top: 222px;
+    text-align: center;
+}
+
+#logoRepair{
+    font-size: 40px;
+    padding-top: 70px;
+    padding-bottom: 5px;
+}
+
+#txtRepair{
+    display: block;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.caseContact{
+    width: 222px;
+    height: 222px;
+    background-color: blue;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#logoContact{
+    font-size: 40px;
+    padding-top: 70px;
+    padding-bottom: 5px;
+}
+
+#txtContact{
+    display: block;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+/*      colonne 3       */
+.colonne03{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 222px;
+}
+
+.caseAd{
+    width: 222px;
+    height: 222px;
+    background-color: orange;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#logoAdherent{
+    font-size: 40px;
+    padding-top: 70px;
+    padding-bottom: 5px;
+}
+
+#txtAdherent{
+    display: block;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.caseEsp{
+    width: 222px;
+    height: 222px;
+    background-color: lightseagreen;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    top: 222px;
+}
+
+#logoEsp{
+    display: block;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
