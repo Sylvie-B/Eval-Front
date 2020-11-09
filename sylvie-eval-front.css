@@ -225,7 +225,40 @@ h1{
 
 #logoEsp{
     display: block;
+    font-size: 40px;
+    padding-top: 70px;
     padding-left: 20%;
     padding-right: 20%;
 }
+
+#txtEsp{
+    display: block;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+
+.caseGalerie{
+    width: 222px;
+    height: 222px;
+    background-color: orangered;
+    text-align: center;
+    position: absolute;
+    top: 444px;
+}
+
+#logoGalerie{
+    display: block;
+    font-size: 40px;
+    padding-top: 70px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#txtGalerie{
+    display: block;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
 
