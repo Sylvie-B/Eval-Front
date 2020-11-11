@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
 
+*{
+    font-family: 'Goldman', cursive;
+    color: white;
+    text-decoration-line: none;
+}
+
 body{
     margin: 10px;
     padding: 10px;
-    font-family: 'Goldman', cursive;
-    color: white;
     background-color: dimgrey;
 }
 
@@ -17,12 +21,16 @@ body{
 }
 
 /*  photo et boutons    */
+a{
+    color: white;
+}
+
 .fablab{
     position: relative;
     float: right;
     width: 444px;
     height: 666px;
-    background-image: url("fablab01.jpeg");
+    background-image: url("image/fablab01.jpeg");
     background-size: 1110px;
 }
 
@@ -245,6 +253,7 @@ h1{
     text-align: center;
     position: absolute;
     top: 444px;
+    left: 0;
 }
 
 #logoGalerie{
@@ -260,5 +269,4 @@ h1{
     padding-left: 20%;
     padding-right: 20%;
 }
-
 

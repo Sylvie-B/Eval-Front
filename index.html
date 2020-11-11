@@ -3,73 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <title>Le L@bo - Fourmies</title>
-    <link rel="stylesheet" href="sylvie-eval-front.css">
+    <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/b3c591f1b4.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="cadre">
         <!--    photo + fleches + ...   -->
         <div class="fablab">
+            <a  href="" title="suivant">
             <i id="tripleP" class="fas fa-ellipsis-h"></i>
+            </a>
             <div class="doubleF">
+                <a href="" title="précédent">
                 <i id="flecheLeft" class="fas fa-angle-left"></i>
+                </a>
+                <a href="" title="suivant">
                 <i id="flecheRight" class="fas fa-angle-right"></i>
+                </a>
             </div>
         </div>
         <!--    carré   -->
         <div class="carre">
-        <!--    colonne double  -->
-        <div class="colDouble">
-            <!--    case titre      -->
-            <div class="titre">
-                <h1>FABLAB LE L@BO</h1>
-                <p>Venez découvrir le fablab de Fourmies</p>
-                <p>Le l@bo vous accueil</p>
-                <!--    navigation de la case titre-->
-                <div class="navigation">
-                    <div class="boutonResume">
-                        <i class="fas fa-arrow-alt-circle-down"></i>
-                        <span class="leftMarg10">RESUME</span>
-                    </div>
-                    <div class="boutonContact">
-                        <i class="fas fa-arrow-alt-circle-right"></i>
-                        <span class="leftMarg10">CONTACT</span>
+            <!--    colonne double  -->
+            <div class="colDouble">
+                <!--    case titre      -->
+                <div class="titre">
+                    <h1>FABLAB LE L@BO</h1>
+                    <p>Venez découvrir le fablab de Fourmies</p>
+                    <p>Le l@bo vous accueil</p>
+                    <!--    navigation de la case titre-->
+                    <div class="navigation">
+                        <a href="" class="boutonResume" title="accueil">
+                            <i class="fas fa-arrow-alt-circle-down"></i>
+                            <span class="leftMarg10">RESUME</span>
+                        </a>
+                        <a href="" class="boutonContact" title="contact">
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                            <span class="leftMarg10">CONTACT</span>
+                        </a>
                     </div>
                 </div>
-            </div>
-            <!--    colonne 01  -->
-            <div class="caseAteliers">
-                    <i id="logoAteliers" class="fas fa-wrench"></i>
-                    <span id="txtAtelier">ATELIERS</span>
-            </div>
-            <div class="caseReseau">
-                <i id="logoReseau" class="fas fa-at"></i>
-                <span id="txtReseau">RESEAUX SOCIAUX</span>
-            </div>
-            <!--    colonne 02  -->
-            <div class="caseRepair">
-                <i id="logoRepair" class="fas fa-tools"></i>
-                <span id="txtRepair">REPAIR CAFE</span>
-            </div>
-            <div class="caseContact">
-                <i id="logoContact" class="fab fa-telegram-plane"></i>
-                <span id="txtContact">CONTACT</span>
-            </div>
-        </div>
+                <!--    colonne 01  -->
+                <a href="" title="ateliers" >
+                    <div class="caseAteliers">
+                        <i id="logoAteliers" class="fas fa-wrench"></i>
+                        <span id="txtAtelier">ATELIERS</span>
+                    </div>
+                </a>
 
-        <!--    colonne 03  -->
-        <div class="colonne03">
-            <div class="caseAd">
-                <i id="logoAdherent" class="fas fa-robot"></i>
-                <span id="txtAdherent">NOS ADHERENTS</span>
+                <a href="" title="réseaux sociaux">
+                    <div class="caseReseau">
+                        <i id="logoReseau" class="fas fa-at"></i>
+                        <span id="txtReseau">RESEAUX SOCIAUX</span>
+                    </div>
+                </a>
+                <!--    colonne 02  -->
+                <a href="" title="repair cafe" class="caseRepair">
+                        <i id="logoRepair" class="fas fa-tools"></i>
+                        <span id="txtRepair">REPAIR CAFE</span>
+                </a>
+                <a href="" title="contact" class="caseContact">
+                    <i id="logoContact" class="fab fa-telegram-plane"></i>
+                    <span id="txtContact">CONTACT</span>
+                </a>
             </div>
-            <div class="caseEsp">
-                <i id="logoEsp" class="fas fa-users-cog"></i>
-                <span id="txtEsp">ESPACE COWORKING</span>
-            </div>
-            <div class="caseGalerie">
-                <i id="logoGalerie" class="fas fa-images"></i>
-                <span id="txtGalerie">GALERIE</span>
+            <!--    colonne 03  -->
+            <div class="colonne03">
+                >
+                <a href="" title="Nos adherents" class="caseAd">
+                    <i id="logoAdherent" class="fas fa-robot"></i>
+                    <span id="txtAdherent">NOS ADHERENTS</span>
+                </a>
+                <a href="" title="Coworking" class="caseEsp">
+                    <i id="logoEsp" class="fas fa-users-cog"></i>
+                    <span id="txtEsp">ESPACE COWORKING</span>
+                </a>
+                <a href="" title="Galerie" class="caseGalerie">
+                    <i id="logoGalerie" class="fas fa-images"></i>
+                    <span id="txtGalerie">GALERIE</span>
+                </a>
             </div>
         </div>
     </div>
