@@ -30,8 +30,8 @@ a{
     float: right;
     width: 444px;
     height: 666px;
-    background-image: url("image/fablab01.jpeg");
-    background-size: 1110px;
+    background-image: url("https://d26t2n2zm7888w.cloudfront.net/public/assets/static_contents/FabLab_Fourmies.jpeg?1556809606");
+    background-size: cover;
 }
 
 #tripleP{
